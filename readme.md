@@ -27,3 +27,8 @@ Advanced topics are explored in *Deep Learning Foundations and Concepts* by Chri
 - [ ] Backpropagation
 - [ ] Convolutional neural networks
 - [ ] Transformers
+
+## Build
+```bash
+python 6p4-gaussian-process/build.py
+```
