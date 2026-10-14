@@ -8,7 +8,7 @@ Advanced topics are explored in *Deep Learning Foundations and Concepts* by Chri
 
 ## Selected Topics
 
-### Pattern Recognition and Machiene Learning - Bishop
+### Pattern Recognition and Machine Learning - Bishop
 
 - [ ] 3.3 Bayesian linear regression
 - [ ] 5.1 Regularization in neural networks
@@ -21,14 +21,9 @@ Advanced topics are explored in *Deep Learning Foundations and Concepts* by Chri
 - [ ] 12.1 Principal component analysis 
 - [ ] 13.1 Hidden Markov models 
 
-### Deep Learning, Foundations and Concnepts - Bishop and Bishop
+### Deep Learning, Foundations and Concepts - Bishop and Bishop
 
 - [ ] Feed-forward neural networks
 - [ ] Backpropagation
 - [ ] Convolutional neural networks
 - [ ] Transformers
-
-## Build
-```bash
-python 6p4-gaussian-process/build.py
-```

@@ -1,11 +1,11 @@
 # Python
 __pycache__/
-*.py*cod]
+*.py[cod]
 
 # Environments
 .venv/
 venv/
-*nv/
+env/
 
 # IDE
 .idea/
