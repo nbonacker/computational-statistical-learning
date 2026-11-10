@@ -13,3 +13,6 @@ env/
 # OS
 .DS_Store
 *humbs.db
+
+# Plots
+*.png
