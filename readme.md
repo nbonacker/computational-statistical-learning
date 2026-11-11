@@ -1,6 +1,6 @@
 # Computational Statistical Learning
 
-[![build](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/build.yml/badge.svg)](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/build.yml)
+[![gaussian-process](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml/badge.svg)](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml)
 
 The goal of this repository is to develop intuition for statistical learning and probabilistic modeling through small, 
 reproducible examples.
