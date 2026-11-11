@@ -1,5 +1,7 @@
 # Computational Statistical Learning
 
+[![build](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/build.yml/badge.svg)](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/build.yml)
+
 The goal of this repository is to develop intuition for statistical learning and probabilistic modeling through small, 
 reproducible examples.
 Following *Pattern Recognition and Machine Learning* by Christopher M. Bishop, we implement selected algorithms 
@@ -13,7 +15,7 @@ Advanced topics are explored in *Deep Learning Foundations and Concepts* by Chri
 - [ ] 3.3 Bayesian linear regression
 - [ ] 5.1 Regularization in neural networks
 - [ ] 5.3 Bayesian neural networks
-- [x] 6.4 Gaussian process 
+- [x] 6.4 [Gaussian process](6p4-gaussian-process/readme.md) 
 - [ ] 7.1 Support vector machines 
 - [ ] 8.1 Inference in graphical models 
 - [ ] 10.1 Variational inference 
