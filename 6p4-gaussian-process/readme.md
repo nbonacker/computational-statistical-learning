@@ -1,4 +1,6 @@
 # Gaussian Process
+[![gaussian-process](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml/badge.svg?branch=main)](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml)
+
 Minimal Gaussian Process regression implementation, as introduced in *Pattern Recognition and Machine Learning* by \
 Christopher M. Bishop, section 6.4.
 

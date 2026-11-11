@@ -13,7 +13,7 @@ Advanced topics are explored in *Deep Learning Foundations and Concepts* by Chri
 - [ ] 3.3 Bayesian linear regression
 - [ ] 5.1 Regularization in neural networks
 - [ ] 5.3 Bayesian neural networks
-- [x] 6.4 [Gaussian process](6p4-gaussian-process/readme.md) [![gaussian-process](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml/badge.svg?branch=main)](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml) 
+- [x] [<img src="https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml/badge.svg?branch=main" height="16" align="right">](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/gaussian-process.yml) 6.4 [Gaussian process](6p4-gaussian-process/readme.md) 
 - [ ] 7.1 Support vector machines 
 - [ ] 8.1 Inference in graphical models 
 - [ ] 10.1 Variational inference 
