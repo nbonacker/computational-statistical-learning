@@ -16,4 +16,6 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - run: pytest 6p4-gaussian-process
+
       - run: python 6p4-gaussian-process/build.py
