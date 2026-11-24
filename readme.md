@@ -10,6 +10,7 @@ Advanced topics are explored in *Deep Learning Foundations and Concepts* by Chri
 
 ### Pattern Recognition and Machine Learning - Bishop
 
+- [x] [<img src="https://github.com/nbonacker/computational-statistical-learning/actions/workflows/bias-variance-decomposition.yml/badge.svg?branch=main" height="16" align="right">](https://github.com/nbonacker/computational-statistical-learning/actions/workflows/bias-variance-decomposition.yml) 3.2 [Bias-variance decomposition](3p2-bias-variance-decomposition/readme.md)
 - [ ] 3.3 Bayesian linear regression
 - [ ] 5.1 Regularization in neural networks
 - [ ] 5.3 Bayesian neural networks
