@@ -7,8 +7,8 @@ plt.style.use('bmh')
 
 rng = np.random.default_rng(42)
 
-FIGURES = Path(__file__).parent / 'figures'
-FIGURES.mkdir(exist_ok=True)
+FIGURES_DIR = Path(__file__).parent / 'figures'
+FIGURES_DIR.mkdir(exist_ok=True)
 
 L = 100                            # number of data sets
 N = 25                             # points per data set
@@ -56,7 +56,7 @@ axs[2, 0].set_xlabel('x', size=10)
 axs[2, 1].set_xlabel('x', size=10)
 fig.suptitle('Regularization', size=12)
 fig.tight_layout()
-fig.savefig(FIGURES / 'regularization.png')
+fig.savefig(FIGURES_DIR / 'regularization.png')
 plt.close(fig)
 
 # Bias-variance decomposition (compare Bishop Fig. 3.6)
@@ -81,7 +81,7 @@ ax.set_ylabel('Error', size=10)
 ax.set_title('Bias-variance decomposition', size=12)
 ax.legend(fontsize=10)
 fig.tight_layout()
-fig.savefig(FIGURES / 'bias_variance.png')
+fig.savefig(FIGURES_DIR / 'bias_variance.png')
 plt.close(fig)
 
 print(f'Minimum of bias^2 + variance at ln lambda = {LN_LAMBDAS[np.argmin(bias2 + variance)]:.2f}')

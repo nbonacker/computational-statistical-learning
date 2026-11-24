@@ -7,8 +7,8 @@ plt.style.use('bmh')
 
 rng = np.random.default_rng(42)
 
-FIGURES = Path(__file__).parent / 'figures'
-FIGURES.mkdir(exist_ok=True)
+FIGURES_DIR = Path(__file__).parent / 'figures'
+FIGURES_DIR.mkdir(exist_ok=True)
 
 
 # Prior
@@ -20,11 +20,12 @@ samples = rng.multivariate_normal(np.zeros(len(X)), K, size=5)
 fig, ax = plt.subplots(1, 1, figsize=(6,3))
 for i, s in enumerate(samples):
    ax.plot(X, s)
+ax.grid(True)
 ax.set_title('Gaussian Process Prior', size=10)
 ax.set_xlabel('X', size=10)
 ax.set_ylabel('Y', size=10)
 fig.tight_layout()
-fig.savefig(FIGURES / 'prior.png')
+fig.savefig(FIGURES_DIR / 'prior.png')
 plt.close()
 
 # Posterior
@@ -35,6 +36,7 @@ mu, std = posterior(X_train, y_train, X)
 
 fig, ax = plt.subplots(1, 1, figsize=(6,3))
 ax.plot(X, mu, label='Posterior mean function')
+ax.grid(True)
 ax.set_xlabel('X', size=10)
 ax.set_ylabel('Y', size=10)
 ax.set_title('Gaussian Process Posterior', size=10)
@@ -42,5 +44,5 @@ ax.fill_between(X, mu-2*std, mu+2*std, alpha=0.2, label='95% confidence interval
 ax.scatter(X_train, y_train, label='Training data')
 ax.legend()
 fig.tight_layout()
-fig.savefig(FIGURES / 'posterior.png')
+fig.savefig(FIGURES_DIR / 'posterior.png')
 plt.close()

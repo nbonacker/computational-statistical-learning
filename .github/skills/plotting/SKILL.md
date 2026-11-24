@@ -5,8 +5,6 @@ description: Conventions for creating Matplotlib plots. Use when adding or chang
 
 # Plotting skill
 
-Reference: `plot_pre_post` in `PythonScripts/shelf_live_time/shelf_live_time.py`.
-
 ## Rules
 
 - Matplotlib only; `plt.style.use('bmh')` once at the top of the script, keep its grey background.
